@@ -12,4 +12,4 @@
 - Read `Data_package_Input.json` to get all the constants and orbital data.
 - Run your implementation of the algorithm.
 - Calculate `lat_deg` and `lon_deg` for the exact same timestamps provided in `Data_package_Output.json`.
--Compare your results with the ones in the output JSON to check for any errors.
+- Compare your results with the ones in the output JSON to check for any errors.
