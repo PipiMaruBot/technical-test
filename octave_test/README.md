@@ -1,15 +1,15 @@
-### Archivos
-- **`Data_package_Input.json`**: parámetros de entrada del problema (constantes y elementos orbitales).
-- **`Data_package_Output.json`**: algunas muestras de salida del algoritmo (latitud y longitud) para validar la implementación.
+### Project Files
+- **`Data_package_Input.json`**: This file contains the input parameters for the problem, such as constants and orbital elements.
+- **`Data_package_Output.json`**: This one has some output samples (latitude and longitude) to validate that the code is working correctly.
 
-### Significado de los datos
-- A partir de las entradas de `Data_package_Input.json`, el algoritmo calcula, para distintos instantes de tiempo:
-  - **`lat_deg`**: latitud del subsatélite, en grados.
-  - **`lon_deg`**: longitud del subsatélite, en grados.
-- En `Data_package_Output.json` se incluyen solo unas pocas muestras para facilitar la comparación.
+### Data Meaning
+- Using the inputs from `Data_package_Input.json`, the algorithm calculates two things for different times:
+  - **`lat_deg`**: The latitude of the sub-satellite (in degrees).
+  - **`lon_deg`**: The longitude of the sub-satellite (in degrees).
+- In `Data_package_Output.json` I only included a few samples to make the comparison easier for the user and to check if the implementation is correct.
 
-### Cómo usar
-- Leer `Data_package_Input.json` y reconstruir los inputs.
-- Implementar el algoritmo.
-- Calcular `lat_deg` y `lon_deg` para los mismos instantes de tiempo que aparecen en `Data_package_Output.json`.
-- Comparar los resultados obtenidos con los del JSON de salida.
+### How to use
+- Read `Data_package_Input.json` to get all the constants and orbital data.
+- Run your implementation of the algorithm.
+- Calculate `lat_deg` and `lon_deg` for the exact same timestamps provided in `Data_package_Output.json`.
+-Compare your results with the ones in the output JSON to check for any errors.
