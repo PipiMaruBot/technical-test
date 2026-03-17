@@ -24,6 +24,9 @@ To ensure the backend team can successfully implement an operational version of 
 - **Description Document:** Technical documentation where all the underlying logic, mathematical equations and flowcharts are explained.
 - **Reference code in Octave:** Team 1 should provide a script that has been tested before in order to test results, also provide validation data with in and out examples ( for example: "With this sensor the algorith should have this exact result").
 
+## 5) Octave-->Data package-->Product validation
+- All requirements (a, b, c, and d) from the technical test have been successfully implemented.
+- The orbital results from both environments match perfectly.
 
 
 
